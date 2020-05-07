@@ -13,6 +13,7 @@
 		0509685F2463F5FC00664AB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0509685D2463F5FC00664AB5 /* Main.storyboard */; };
 		050968612463F60300664AB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 050968602463F60300664AB5 /* Assets.xcassets */; };
 		050968642463F60300664AB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050968622463F60300664AB5 /* LaunchScreen.storyboard */; };
+		0509686D2463F8E100664AB5 /* RoundCornerImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0509686C2463F8E100664AB5 /* RoundCornerImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		050968602463F60300664AB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		050968632463F60300664AB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		050968652463F60300664AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0509686C2463F8E100664AB5 /* RoundCornerImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCornerImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		050968562463F5FC00664AB5 /* dev-profile */ = {
 			isa = PBXGroup;
 			children = (
+				0509686B2463F8B700664AB5 /* View */,
 				050968572463F5FC00664AB5 /* AppDelegate.swift */,
 				050968592463F5FC00664AB5 /* SceneDelegate.swift */,
 				0509685B2463F5FC00664AB5 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				050968652463F60300664AB5 /* Info.plist */,
 			);
 			path = "dev-profile";
+			sourceTree = "<group>";
+		};
+		0509686B2463F8B700664AB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0509686C2463F8E100664AB5 /* RoundCornerImage.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0509685C2463F5FC00664AB5 /* ViewController.swift in Sources */,
+				0509686D2463F8E100664AB5 /* RoundCornerImage.swift in Sources */,
 				050968582463F5FC00664AB5 /* AppDelegate.swift in Sources */,
 				0509685A2463F5FC00664AB5 /* SceneDelegate.swift in Sources */,
 			);
